@@ -11,7 +11,7 @@ export default class World {
     }
   }
 
-  private Koncha(elem: HTMLElement | null): void {
+  private Koncha(elem: HTMLElement | null) {
     if (elem) {
       elem.innerText = this.message;
     }
